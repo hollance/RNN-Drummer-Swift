@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B6E883D1E8FE4D20050DDFE /* 1115-Standard Rock Set.sf2 in Resources */ = {isa = PBXBuildFile; fileRef = 7B6E883A1E8FE4D20050DDFE /* 1115-Standard Rock Set.sf2 */; };
+		7B6E883E1E8FE4D20050DDFE /* Wx.bin in Resources */ = {isa = PBXBuildFile; fileRef = 7B6E883B1E8FE4D20050DDFE /* Wx.bin */; };
+		7B6E883F1E8FE4D20050DDFE /* Wy.bin in Resources */ = {isa = PBXBuildFile; fileRef = 7B6E883C1E8FE4D20050DDFE /* Wy.bin */; };
+		7B98EED91E8D7DD7007B632A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B98EED81E8D7DD7007B632A /* AppDelegate.swift */; };
+		7B98EEDB1E8D7DD7007B632A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B98EEDA1E8D7DD7007B632A /* ViewController.swift */; };
+		7B98EEDE1E8D7DD7007B632A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B98EEDC1E8D7DD7007B632A /* Main.storyboard */; };
+		7B98EEE01E8D7DD7007B632A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B98EEDF1E8D7DD7007B632A /* Assets.xcassets */; };
+		7B98EEE31E8D7DD7007B632A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B98EEE11E8D7DD7007B632A /* LaunchScreen.storyboard */; };
+		7B99D7C71E95110C0003349B /* Drummer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99D7C61E95110C0003349B /* Drummer.swift */; };
+		7B99D7C91E9525700003349B /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99D7C81E9525700003349B /* Math.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7B6E883A1E8FE4D20050DDFE /* 1115-Standard Rock Set.sf2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "1115-Standard Rock Set.sf2"; sourceTree = "<group>"; };
+		7B6E883B1E8FE4D20050DDFE /* Wx.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = Wx.bin; sourceTree = "<group>"; };
+		7B6E883C1E8FE4D20050DDFE /* Wy.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = Wy.bin; sourceTree = "<group>"; };
+		7B98EED51E8D7DD7007B632A /* Drummer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drummer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B98EED81E8D7DD7007B632A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7B98EEDA1E8D7DD7007B632A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7B98EEDD1E8D7DD7007B632A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B98EEDF1E8D7DD7007B632A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Drummer/Assets.xcassets; sourceTree = "<group>"; };
+		7B98EEE21E8D7DD7007B632A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B98EEE41E8D7DD7007B632A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Drummer/Info.plist; sourceTree = "<group>"; };
+		7B99D7C61E95110C0003349B /* Drummer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drummer.swift; sourceTree = "<group>"; };
+		7B99D7C81E9525700003349B /* Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B98EED21E8D7DD7007B632A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B6E88391E8FE4D20050DDFE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7B6E883A1E8FE4D20050DDFE /* 1115-Standard Rock Set.sf2 */,
+				7B6E883B1E8FE4D20050DDFE /* Wx.bin */,
+				7B6E883C1E8FE4D20050DDFE /* Wy.bin */,
+				7B98EEDF1E8D7DD7007B632A /* Assets.xcassets */,
+				7B98EEDC1E8D7DD7007B632A /* Main.storyboard */,
+				7B98EEE11E8D7DD7007B632A /* LaunchScreen.storyboard */,
+				7B98EEE41E8D7DD7007B632A /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+		7B98EECC1E8D7DD7007B632A = {
+			isa = PBXGroup;
+			children = (
+				7B98EED71E8D7DD7007B632A /* Drummer */,
+				7B98EED61E8D7DD7007B632A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B98EED61E8D7DD7007B632A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B98EED51E8D7DD7007B632A /* Drummer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B98EED71E8D7DD7007B632A /* Drummer */ = {
+			isa = PBXGroup;
+			children = (
+				7B99D7CB1E9546770003349B /* Sources */,
+				7B99D7CA1E9534590003349B /* Drummer */,
+				7B6E88391E8FE4D20050DDFE /* Resources */,
+			);
+			path = Drummer;
+			sourceTree = "<group>";
+		};
+		7B99D7CA1E9534590003349B /* Drummer */ = {
+			isa = PBXGroup;
+			children = (
+				7B99D7C61E95110C0003349B /* Drummer.swift */,
+				7B99D7C81E9525700003349B /* Math.swift */,
+			);
+			name = Drummer;
+			sourceTree = "<group>";
+		};
+		7B99D7CB1E9546770003349B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				7B98EED81E8D7DD7007B632A /* AppDelegate.swift */,
+				7B98EEDA1E8D7DD7007B632A /* ViewController.swift */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B98EED41E8D7DD7007B632A /* Drummer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B98EEE71E8D7DD7007B632A /* Build configuration list for PBXNativeTarget "Drummer" */;
+			buildPhases = (
+				7B98EED11E8D7DD7007B632A /* Sources */,
+				7B98EED21E8D7DD7007B632A /* Frameworks */,
+				7B98EED31E8D7DD7007B632A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Drummer;
+			productName = Drummer;
+			productReference = 7B98EED51E8D7DD7007B632A /* Drummer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B98EECD1E8D7DD7007B632A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Hollance;
+				TargetAttributes = {
+					7B98EED41E8D7DD7007B632A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MGCEKGP4Y4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7B98EED01E8D7DD7007B632A /* Build configuration list for PBXProject "Drummer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B98EECC1E8D7DD7007B632A;
+			productRefGroup = 7B98EED61E8D7DD7007B632A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B98EED41E8D7DD7007B632A /* Drummer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B98EED31E8D7DD7007B632A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6E883E1E8FE4D20050DDFE /* Wx.bin in Resources */,
+				7B98EEE31E8D7DD7007B632A /* LaunchScreen.storyboard in Resources */,
+				7B6E883F1E8FE4D20050DDFE /* Wy.bin in Resources */,
+				7B98EEE01E8D7DD7007B632A /* Assets.xcassets in Resources */,
+				7B6E883D1E8FE4D20050DDFE /* 1115-Standard Rock Set.sf2 in Resources */,
+				7B98EEDE1E8D7DD7007B632A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B98EED11E8D7DD7007B632A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B99D7C71E95110C0003349B /* Drummer.swift in Sources */,
+				7B98EEDB1E8D7DD7007B632A /* ViewController.swift in Sources */,
+				7B98EED91E8D7DD7007B632A /* AppDelegate.swift in Sources */,
+				7B99D7C91E9525700003349B /* Math.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7B98EEDC1E8D7DD7007B632A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B98EEDD1E8D7DD7007B632A /* Base */,
+			);
+			name = Main.storyboard;
+			path = ../Drummer;
+			sourceTree = "<group>";
+		};
+		7B98EEE11E8D7DD7007B632A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B98EEE21E8D7DD7007B632A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ../Drummer;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B98EEE51E8D7DD7007B632A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B98EEE61E8D7DD7007B632A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B98EEE81E8D7DD7007B632A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MGCEKGP4Y4;
+				INFOPLIST_FILE = Drummer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hollance.Drummer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7B98EEE91E8D7DD7007B632A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MGCEKGP4Y4;
+				INFOPLIST_FILE = Drummer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hollance.Drummer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B98EED01E8D7DD7007B632A /* Build configuration list for PBXProject "Drummer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B98EEE51E8D7DD7007B632A /* Debug */,
+				7B98EEE61E8D7DD7007B632A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B98EEE71E8D7DD7007B632A /* Build configuration list for PBXNativeTarget "Drummer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B98EEE81E8D7DD7007B632A /* Debug */,
+				7B98EEE91E8D7DD7007B632A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B98EECD1E8D7DD7007B632A /* Project object */;
+}
