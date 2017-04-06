@@ -79,7 +79,7 @@ class Drummer {
         Math.sigmoid(gateF, hiddenSize*3)
         Math.tanh(gateG, hiddenSize)
 
-        // c[t] = gateF * sigmoid(c[t-1]) + sigmoid(gateI) * tanh(gateG)
+        // c[t] = sigmoid(gateF) * sigmoid(c[t-1]) + sigmoid(gateI) * tanh(gateG)
         Math.multiply(&c, gateF, &c, hiddenSize)
         Math.multiply(gateI, gateG, &tmp, hiddenSize)
         Math.add(&tmp, &c, hiddenSize)
@@ -97,20 +97,25 @@ class Drummer {
         Math.matmul(&h, Wy, &y, 1, Wy_cols, Wy_rows)
       }
 
-      // Predict the next note and duration.
-      Math.softmax(&y, noteVectorSize)
-      Math.softmax(&y[noteVectorSize], tickVectorSize)
+      y.withUnsafeMutableBufferPointer { ptr in
+        let yNote = ptr.baseAddress!
+        let yTick = yNote.advanced(by: noteVectorSize)
 
-      // Randomly sample from the output probability distributions.
-      let noteIndex = Math.randomlySample(&y, noteVectorSize)
-      let tickIndex = Math.randomlySample(&y[noteVectorSize], tickVectorSize)
-      sampled.append((index2note[noteIndex], index2tick[tickIndex]))
+        // Predict the next note and duration.
+        Math.softmax(yNote, noteVectorSize)
+        Math.softmax(yTick, tickVectorSize)
 
-      // Use the output as the next input.
-      x[seedIndexNote] = 0
-      x[seedIndexTick + noteVectorSize] = 0
-      seedIndexNote = noteIndex
-      seedIndexTick = tickIndex
+        // Randomly sample from the output probability distributions.
+        let noteIndex = Math.randomlySample(yNote, noteVectorSize)
+        let tickIndex = Math.randomlySample(yTick, tickVectorSize)
+        sampled.append((index2note[noteIndex], index2tick[tickIndex]))
+
+        // Use the output as the next input.
+        x[seedIndexNote] = 0
+        x[seedIndexTick + noteVectorSize] = 0
+        seedIndexNote = noteIndex
+        seedIndexTick = tickIndex
+      }
     }
 
     return sampled
