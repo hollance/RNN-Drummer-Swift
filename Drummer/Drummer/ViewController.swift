@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     super.viewDidLoad()
 
     do {
-      try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
+		try AVAudioSession.sharedInstance().setCategory(AVAudioSession.Category.playback)
     } catch {
       print("Error: could not set audio session")
     }
